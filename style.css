@@ -1,0 +1,100 @@
+#main{
+	height:100%;
+}
+#main::after {
+  content: "SPREEE's cominggg!!!";
+  background: url("ss1.png");
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+li { cursor: pointer; 
+	/*border-bottom: 1px solid blue;*/
+}
+#aj:hover span{
+	border-bottom: 1px solid #0066cc;
+}
+/*#acc:hover,#spot:hover{
+		text-decoration:underline;
+		-webkit-text-decoration-color: blue;
+		background:#333333;
+	}
+*/
+#headerbox,#headimage{
+text-align:center;
+}
+a{
+	text-decoration:underline;
+	color:white;
+}
+#list-item{
+	text-decoration:none;
+	color:white;
+}
+li{
+	padding:12px;
+	text-align:center;	
+	font-size:140%;
+}
+
+.side,.side1{
+	display:inline;
+	float:left;
+}
+#menu{
+	width:13%;
+	height:100%;
+	background-color:black;
+	border-radius:2px 2px:
+	
+}
+.glyph{
+	position:relative;
+	top:8px;
+}
+#list-item{
+	background-color:black;
+	
+}
+#heading{
+	text-shadow: 1px 1px #003366;
+	width:87%;
+	text-align:center;
+	height:11%;
+	font-size:230%;
+	font-family: "Times New Roman", Times, serif;
+}
+#heading_span{
+	float:right;
+}
+ #body{
+
+ }
+#login_box{
+	float:center;
+	width:33%;
+	position:absolute;
+	top: 17%;
+	left:33%;
+	background-color:#F8F8F8; 
+	height:60%;
+	padding:50px;
+	border-radius:20px;
+}
+#submitbtn{
+	width:100%;
+	background-color:#6666CC;
+}
+
+#signup{
+	width:100%;
+	background-color:#E0E0E0;
+}
+#headimage{
+	width:20px;
+	height:20px;
+}

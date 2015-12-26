@@ -1,0 +1,25 @@
+// using ajax 
+function load_home (e) {
+   (e || window.event).preventDefault();
+   var con = document.getElementById('content')
+   ,   xhr = new XMLHttpRequest();
+
+   xhr.onreadystatechange = function (e) { 
+    if (xhr.readyState == 4 && xhr.status == 200) {
+     con.innerHTML = xhr.responseText;
+    }
+   }
+
+ xhr.open("GET", "http://www.yoursite.com/home.html", true);
+ xhr.setRequestHeader('Content-type', 'text/html');
+ xhr.send();
+}
+
+
+
+function load_home(){
+document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
+}
+
+
+
