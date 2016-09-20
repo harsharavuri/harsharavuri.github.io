@@ -75,7 +75,7 @@
   <li  id="list-item" onclick="ajax(0)"><span>Home</span></li>
   </div>
   <div id="aj">
-  <li  id="list-item" onclick="ajax(2)"><span>Events</span></li>
+  <li  id="list-item" onclick="ajax(2)"><span>Eventss</span></li>
   </div>
   <div id="aj">
  
